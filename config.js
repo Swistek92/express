@@ -1,7 +1,7 @@
 // const dotenv = require("dotenv")
 // dotenv.config()
 module.exports = { 
-  db: process.env.mongo,
+  db: `mongodb+srv://swistek_92:${process.env.pass}@cluster0.13vko.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
   keySession: ["KEYKEYKEY"],
   maxAgeSession: 24 * 60 *60 *1000
 }
