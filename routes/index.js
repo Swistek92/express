@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const dotenv = require("dotenv")
-dotenv.config()
+// const dotenv = require("dotenv")
+// dotenv.config()
 const login = "admin";
 const password = process.env.pass;
 
